@@ -24,44 +24,25 @@ Before you begin, ensure you have the following installed:
 
 ## Getting Started
 
-1. Clone the repository:
-
-   ```bash
+1. **Clone this Repository**:
+   ```
    git clone https://github.com/Praveen76/Fine-tune-LLAMA-with-QLoRA.git
    cd Fine-tune-LLAMA-with-QLoRA
    ```
 
-2. Install the required dependencies:
-
-   ```bash
+2. **Install Dependencies**:
+   ```
    pip install -r requirements.txt
    ```
 
-3. Download and prepare the LLAMA model:
+3. **Fine-Tune Llama2**:
+   - Use the provided Jupyter notebook (`Fine-tune-LLAMA-with-QLoRA.ipynb`) to fine-tune Llama2 on your custom dataset.
+   - Adjust hyperparameters, training settings, and evaluation metrics as needed.
 
-   ```bash
-   # Add instructions to download and prepare the LLAMA model
-   ```
-
-4. Fine-tune LLAMA with QLoRA:
-
-   ```bash
-   python fine_tune_llama.py --config config.yaml
-   ```
-
-   Make sure to customize the configuration file according to your requirements.
-
-## Configuration
-
-The configuration file (`config.yaml`) allows you to specify various parameters for the fine-tuning process, including data paths, model hyperparameters, and QLoRA-specific settings.
-
-```yaml
-# Add sample configuration parameters and explanations
+4. **Evaluate and Deploy**:
+   - Evaluate the fine-tuned model's performance on validation data.
+   - Deploy the model for inference in your applications.
 ```
-
-## Results
-
-Include information about the performance metrics and results obtained after fine-tuning LLAMA with QLoRA. You may want to provide comparisons with baseline models or alternative fine-tuning methods.
 
 ## Contributing
 
@@ -70,10 +51,6 @@ If you'd like to contribute to this project, please follow the guidelines in [CO
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Mention any contributors, libraries, or resources you found helpful.
 
 ## Contact
 
