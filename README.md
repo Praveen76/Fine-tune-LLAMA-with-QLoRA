@@ -2,7 +2,9 @@
 
 ## Overview
 
-This repository provides an implementation of the fine-tuning process for Large Language Models (LLMs), specifically LLAMA, using the QLoRA (Quantized Low Rank Adaption) method. QLoRA stands for **Quantized Low Rank Adaption**. It is a new approach to fine-tuning large language models (LLMs) that uses less memory while maintaining speed. QLoRA works by first quantizing the LLM to 4-bits, reducing the model’s memory footprint significantly. The quantized LLM is then fine-tuned using the Low Rank Adapters (LoRA) approach. QLoRA is a versatile technique applicable to different language models, including RoBERTa, DeBERTa, GPT-2, and GPT-3, enabling researchers to explore parameter-efficient fine-tuning for various LLM architectures. QLoRA was developed by members of the University of Washington's UW NLP group.
+This repository provides an implementation of the fine-tuning process for Large Language Models (LLMs), specifically LLAMA, using the QLoRA (Quantized Low Rank Adaption) method. ]
+
+**QLoRA** stands for **Quantized Low Rank Adaption**. It is a new approach to fine-tuning large language models (LLMs) that uses less memory while maintaining speed. QLoRA works by first quantizing the LLM to 4-bits, reducing the model’s memory footprint significantly. The quantized LLM is then fine-tuned using the Low Rank Adapters (LoRA) approach. QLoRA is a versatile technique applicable to different language models, including RoBERTa, DeBERTa, GPT-2, and GPT-3, enabling researchers to explore parameter-efficient fine-tuning for various LLM architectures. QLoRA was developed by members of the University of Washington's UW NLP group.
 
 ## Prerequisites
 
